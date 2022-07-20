@@ -6,9 +6,14 @@ body {
     background-color: #F3F1FF;
 }
 
+.top-player {
+    margin-bottom: 30px;
+}
+
 .Section-title {
     color: #562EFF;
     font-size: 24px;
+    margin-top: 3px;
 }
 
 main {
@@ -28,6 +33,7 @@ main {
 .players {
     display: Grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 
 .player {
@@ -42,4 +48,10 @@ main {
 
 .player-name {
     margin-left: 16px;
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+
 }
